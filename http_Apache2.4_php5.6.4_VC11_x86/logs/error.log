@@ -1,0 +1,21 @@
+[Thu Jun 11 18:53:44.198600 2015] [mpm_winnt:notice] [pid 4604:tid 228] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1j configured -- resuming normal operations
+[Thu Jun 11 18:53:44.198600 2015] [mpm_winnt:notice] [pid 4604:tid 228] AH00456: Server built: Oct 19 2014 11:13:31
+[Thu Jun 11 18:53:44.198600 2015] [mpm_winnt:notice] [pid 4604:tid 228] AH80000: Distributed by: The Apache Haus
+[Thu Jun 11 18:53:44.198600 2015] [mpm_winnt:notice] [pid 4604:tid 228] AH80001: Compiled with: Visual Studio 2012
+[Thu Jun 11 18:53:44.198600 2015] [core:notice] [pid 4604:tid 228] AH00094: Command line: 'D:\\HTTP\\bin\\httpd.exe -d D:/HTTP'
+[Thu Jun 11 18:53:44.238600 2015] [mpm_winnt:notice] [pid 4604:tid 228] AH00418: Parent: Created child process 5712
+[Thu Jun 11 18:53:46.535600 2015] [mpm_winnt:notice] [pid 5712:tid 244] AH00354: Child: Starting 150 worker threads.
+[Thu Jun 11 18:53:58.951600 2015] [mpm_winnt:crit] [pid 5712:tid 244] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Jun 11 18:53:58.951600 2015] [mpm_winnt:error] [pid 5712:tid 1392] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Thu Jun 11 18:53:58.952600 2015] [mpm_winnt:notice] [pid 5712:tid 1392] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Thu Jun 11 18:54:00.955600 2015] [mpm_winnt:notice] [pid 5712:tid 244] AH00364: Child: All worker threads have exited.
+[Thu Jun 11 18:57:33.198600 2015] [mpm_winnt:notice] [pid 7332:tid 232] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1j configured -- resuming normal operations
+[Thu Jun 11 18:57:33.198600 2015] [mpm_winnt:notice] [pid 7332:tid 232] AH00456: Server built: Oct 19 2014 11:13:31
+[Thu Jun 11 18:57:33.198600 2015] [mpm_winnt:notice] [pid 7332:tid 232] AH80000: Distributed by: The Apache Haus
+[Thu Jun 11 18:57:33.198600 2015] [mpm_winnt:notice] [pid 7332:tid 232] AH80001: Compiled with: Visual Studio 2012
+[Thu Jun 11 18:57:33.198600 2015] [core:notice] [pid 7332:tid 232] AH00094: Command line: 'D:\\HTTP\\bin\\httpd.exe -d D:/HTTP'
+[Thu Jun 11 18:57:33.220600 2015] [mpm_winnt:notice] [pid 7332:tid 232] AH00418: Parent: Created child process 7008
+[Thu Jun 11 18:57:34.748600 2015] [mpm_winnt:notice] [pid 7008:tid 248] AH00354: Child: Starting 150 worker threads.
+[Thu Jun 11 18:58:23.369600 2015] [:error] [pid 7008:tid 1668] [client ::1:56631] script 'D:/HTTP/htdocs/php_test.php' not found or unable to stat
+[Thu Jun 11 18:59:49.317600 2015] [mpm_winnt:crit] [pid 7008:tid 248] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Jun 11 18:59:51.321600 2015] [mpm_winnt:notice] [pid 7008:tid 248] AH00364: Child: All worker threads have exited.

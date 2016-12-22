@@ -1,0 +1,16 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::header
+2 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+

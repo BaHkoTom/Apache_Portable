@@ -1,0 +1,2035 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::header
+2 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+
+fl=php:internal
+fn=php::fopen
+52 999
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::explode
+58 0
+
+fl=php:internal
+fn=php::trim
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::explode
+59 0
+
+fl=php:internal
+fn=php::trim
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::explode
+60 0
+
+fl=php:internal
+fn=php::trim
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::explode
+57 0
+
+fl=php:internal
+fn=php::trim
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::feof
+63 0
+
+fl=php:internal
+fn=php::fclose
+66 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->conf_read
+51 8000
+cfl=php:internal
+cfn=php::fopen
+calls=1 0 0
+52 999
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::feof
+calls=1 0 0
+63 0
+cfl=php:internal
+cfn=php::fclose
+calls=1 0 0
+66 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->__construct
+21 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+cfn=tCart->conf_read
+calls=1 0 0
+22 9000
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=require_once::C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+1 0
+
+fl=php:internal
+fn=php::is_file
+18 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->__construct
+17 0
+cfl=php:internal
+cfn=php::is_file
+calls=1 0 0
+18 0
+
+fl=php:internal
+fn=php::SQLite3::escapeString
+159 999
+
+fl=php:internal
+fn=php::SQLite3->open
+7 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=MyDB->__construct
+5 0
+cfl=php:internal
+cfn=php::SQLite3->open
+calls=1 0 0
+7 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->db_open
+32 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=MyDB->__construct
+calls=1 0 0
+33 0
+
+fl=php:internal
+fn=php::strlen
+49 0
+
+fl=php:internal
+fn=php::SQLite3->query
+50 0
+
+fl=php:internal
+fn=php::strpos
+51 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3->close
+55 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->db_oper
+44 2000
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->db_open
+calls=1 0 0
+47 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+49 0
+cfl=php:internal
+cfn=php::SQLite3->query
+calls=1 0 0
+50 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+51 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3->close
+calls=1 0 0
+55 0
+
+fl=php:internal
+fn=php::SQLite3->open
+7 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=MyDB->__construct
+5 999
+cfl=php:internal
+cfn=php::SQLite3->open
+calls=1 0 0
+7 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->db_open
+32 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=MyDB->__construct
+calls=1 0 0
+33 999
+
+fl=php:internal
+fn=php::strlen
+49 0
+
+fl=php:internal
+fn=php::SQLite3->query
+50 1000
+
+fl=php:internal
+fn=php::strpos
+51 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 999
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3->close
+55 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->db_oper
+44 3000
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->db_open
+calls=1 0 0
+47 999
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+49 0
+cfl=php:internal
+cfn=php::SQLite3->query
+calls=1 0 0
+50 1000
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+51 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 999
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3->close
+calls=1 0 0
+55 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->pullGroups
+155 999
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=require_once::C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+calls=1 0 0
+156 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->__construct
+calls=1 0 0
+157 0
+cfl=php:internal
+cfn=php::SQLite3::escapeString
+calls=1 0 0
+159 999
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->db_oper
+calls=1 0 0
+162 2000
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->db_oper
+calls=1 0 0
+184 6000
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->__destruct
+23 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->navigation
+75 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+202 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+202 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+202 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+203 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+202 0
+
+fl=php:internal
+fn=php::strlen
+202 0
+
+fl=php:internal
+fn=php::array_push
+202 0
+
+fl=php:internal
+fn=php::var_dump
+206 0
+
+fl=php:internal
+fn=php::var_dump
+207 1999
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->showGroups
+196 5000
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+cfn=tCart->navigation
+calls=1 0 0
+197 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+203 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+202 0
+cfl=php:internal
+cfn=php::var_dump
+calls=1 0 0
+206 0
+cfl=php:internal
+cfn=php::var_dump
+calls=1 0 0
+207 1999
+
+fl=php:internal
+fn=php::is_file
+18 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->__construct
+17 0
+cfl=php:internal
+cfn=php::is_file
+calls=1 0 0
+18 0
+
+fl=php:internal
+fn=php::SQLite3::escapeString
+248 0
+
+fl=php:internal
+fn=php::SQLite3->open
+7 999
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=MyDB->__construct
+5 0
+cfl=php:internal
+cfn=php::SQLite3->open
+calls=1 0 0
+7 999
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->db_open
+32 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=MyDB->__construct
+calls=1 0 0
+33 999
+
+fl=php:internal
+fn=php::strlen
+49 0
+
+fl=php:internal
+fn=php::SQLite3->query
+50 999
+
+fl=php:internal
+fn=php::strpos
+51 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3->close
+55 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->db_oper
+44 999
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->db_open
+calls=1 0 0
+47 999
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+49 0
+cfl=php:internal
+cfn=php::SQLite3->query
+calls=1 0 0
+50 999
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+51 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3->close
+calls=1 0 0
+55 0
+
+fl=php:internal
+fn=php::ceil
+253 0
+
+fl=php:internal
+fn=php::SQLite3::escapeString
+260 0
+
+fl=php:internal
+fn=php::SQLite3::escapeString
+261 0
+
+fl=php:internal
+fn=php::SQLite3::escapeString
+262 0
+
+fl=php:internal
+fn=php::SQLite3::escapeString
+263 0
+
+fl=php:internal
+fn=php::SQLite3::escapeString
+264 0
+
+fl=php:internal
+fn=php::SQLite3->open
+7 999
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=MyDB->__construct
+5 0
+cfl=php:internal
+cfn=php::SQLite3->open
+calls=1 0 0
+7 999
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->db_open
+32 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=MyDB->__construct
+calls=1 0 0
+33 999
+
+fl=php:internal
+fn=php::strlen
+49 0
+
+fl=php:internal
+fn=php::SQLite3->query
+50 3999
+
+fl=php:internal
+fn=php::strpos
+51 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3->close
+55 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->db_oper
+44 3000
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->db_open
+calls=1 0 0
+47 999
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+49 0
+cfl=php:internal
+cfn=php::SQLite3->query
+calls=1 0 0
+50 3999
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+51 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3->close
+calls=1 0 0
+55 0
+
+fl=php:internal
+fn=php::SQLite3->open
+7 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=MyDB->__construct
+5 999
+cfl=php:internal
+cfn=php::SQLite3->open
+calls=1 0 0
+7 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->db_open
+32 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=MyDB->__construct
+calls=1 0 0
+33 999
+
+fl=php:internal
+fn=php::strlen
+49 0
+
+fl=php:internal
+fn=php::SQLite3->query
+50 0
+
+fl=php:internal
+fn=php::strpos
+51 0
+
+fl=php:internal
+fn=php::SQLite3Result->fetchArray
+52 0
+
+fl=php:internal
+fn=php::SQLite3->close
+55 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->db_oper
+44 2000
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->db_open
+calls=1 0 0
+47 999
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+49 0
+cfl=php:internal
+cfn=php::SQLite3->query
+calls=1 0 0
+50 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+51 0
+cfl=php:internal
+cfn=php::SQLite3Result->fetchArray
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::SQLite3->close
+calls=1 0 0
+55 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+fn=SQLite3_module->__destruct
+23 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->pullProducts
+243 1000
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->__construct
+calls=1 0 0
+245 0
+cfl=php:internal
+cfn=php::SQLite3::escapeString
+calls=1 0 0
+248 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->db_oper
+calls=1 0 0
+251 2999
+cfl=php:internal
+cfn=php::ceil
+calls=1 0 0
+253 0
+cfl=php:internal
+cfn=php::SQLite3::escapeString
+calls=1 0 0
+260 0
+cfl=php:internal
+cfn=php::SQLite3::escapeString
+calls=1 0 0
+261 0
+cfl=php:internal
+cfn=php::SQLite3::escapeString
+calls=1 0 0
+262 0
+cfl=php:internal
+cfn=php::SQLite3::escapeString
+calls=1 0 0
+263 0
+cfl=php:internal
+cfn=php::SQLite3::escapeString
+calls=1 0 0
+264 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->db_oper
+calls=1 0 0
+300 8000
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->db_oper
+calls=1 0 0
+303 3000
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->__destruct
+calls=1 0 0
+507 0
+
+fl=php:internal
+fn=php::strpos
+98 0
+
+fl=php:internal
+fn=php::strpos
+98 0
+
+fl=php:internal
+fn=php::strpos
+98 0
+
+fl=php:internal
+fn=php::strpos
+98 0
+
+fl=php:internal
+fn=php::strpos
+98 0
+
+fl=php:internal
+fn=php::strpos
+98 0
+
+fl=php:internal
+fn=php::strpos
+98 0
+
+fl=php:internal
+fn=php::strpos
+98 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->sortBy
+89 999
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+98 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+98 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+98 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+98 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+98 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+98 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+98 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+98 0
+
+fl=php:internal
+fn=php::strlen
+339 0
+
+fl=php:internal
+fn=php::number_format
+347 0
+
+fl=php:internal
+fn=php::strlen
+339 0
+
+fl=php:internal
+fn=php::number_format
+347 0
+
+fl=php:internal
+fn=php::strlen
+339 0
+
+fl=php:internal
+fn=php::number_format
+347 0
+
+fl=php:internal
+fn=php::strlen
+339 999
+
+fl=php:internal
+fn=php::number_format
+347 0
+
+fl=php:internal
+fn=php::strlen
+339 0
+
+fl=php:internal
+fn=php::number_format
+347 0
+
+fl=php:internal
+fn=php::strlen
+339 0
+
+fl=php:internal
+fn=php::number_format
+347 0
+
+fl=php:internal
+fn=php::strlen
+339 0
+
+fl=php:internal
+fn=php::number_format
+347 0
+
+fl=php:internal
+fn=php::strlen
+339 0
+
+fl=php:internal
+fn=php::number_format
+347 0
+
+fl=php:internal
+fn=php::strlen
+339 0
+
+fl=php:internal
+fn=php::number_format
+347 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->limitBy
+108 0
+
+fl=php:internal
+fn=php::ceil
+135 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->pages
+126 0
+cfl=php:internal
+cfn=php::ceil
+calls=1 0 0
+135 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->showProducts
+330 3000
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+cfn=tCart->sortBy
+calls=1 0 0
+333 999
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+339 0
+cfl=php:internal
+cfn=php::number_format
+calls=1 0 0
+347 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+339 0
+cfl=php:internal
+cfn=php::number_format
+calls=1 0 0
+347 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+339 0
+cfl=php:internal
+cfn=php::number_format
+calls=1 0 0
+347 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+339 999
+cfl=php:internal
+cfn=php::number_format
+calls=1 0 0
+347 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+339 0
+cfl=php:internal
+cfn=php::number_format
+calls=1 0 0
+347 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+339 0
+cfl=php:internal
+cfn=php::number_format
+calls=1 0 0
+347 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+339 0
+cfl=php:internal
+cfn=php::number_format
+calls=1 0 0
+347 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+339 0
+cfl=php:internal
+cfn=php::number_format
+calls=1 0 0
+347 0
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+339 0
+cfl=php:internal
+cfn=php::number_format
+calls=1 0 0
+347 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+cfn=tCart->limitBy
+calls=1 0 0
+353 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+cfn=tCart->pages
+calls=1 0 0
+354 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn={main}
+
+summary: 46999
+
+1 999
+cfl=php:internal
+cfn=php::header
+calls=1 0 0
+2 0
+cfl=php:internal
+cfn=php::date_default_timezone_set
+calls=1 0 0
+3 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+cfn=tCart->__construct
+calls=1 0 0
+502 9000
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+cfn=tCart->pullGroups
+calls=1 0 0
+505 9999
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\class.sqlite3.inc.php
+cfn=SQLite3_module->__destruct
+calls=1 0 0
+505 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+cfn=tCart->showGroups
+calls=1 0 0
+506 6999
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+cfn=tCart->pullProducts
+calls=1 0 0
+507 15000
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+cfn=tCart->showProducts
+calls=1 0 0
+508 4999
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->__destruct
+27 0
+

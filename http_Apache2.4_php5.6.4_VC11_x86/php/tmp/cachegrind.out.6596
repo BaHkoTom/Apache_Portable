@@ -1,0 +1,156 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: C:\Users\BaHko\HTTP\tFrame1\index.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::realpath
+3 0
+
+fl=php:internal
+fn=php::dirname
+3 0
+
+fl=php:internal
+fn=php::define
+3 0
+
+fl=php:internal
+fn=php::define
+4 0
+
+fl=php:internal
+fn=php::file_exists
+6 1000
+
+fl=php:internal
+fn=php::define
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\configs\config.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\configs\config.php
+1 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+1 0
+
+fl=php:internal
+fn=php::file_exists
+6 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+1 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+fn=__autoload
+3 15000
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+calls=1 0 0
+6 0
+
+fl=php:internal
+fn=php::rtrim
+8 0
+
+fl=php:internal
+fn=php::explode
+9 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+fn=route::set
+7 0
+cfl=php:internal
+cfn=php::rtrim
+calls=1 0 0
+8 0
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+9 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+fn=route::get
+16 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+cfn=route::set
+calls=1 0 0
+16 0
+
+fl=php:internal
+fn=php::file_exists
+6 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+1 0
+cfl=php:internal
+cfn=php::date_default_timezone_set
+calls=1 0 0
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+fn=__autoload
+3 999
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+calls=1 0 0
+6 0
+
+fl=php:internal
+fn=php::session_start
+15 1000
+
+fl=php:internal
+fn=php::session_regenerate_id
+16 0
+
+fl=php:internal
+fn=php::session_id
+17 0
+
+fl=php:internal
+fn=php::md5
+18 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+fn=session::start
+12 0
+cfl=php:internal
+cfn=php::session_start
+calls=1 0 0
+15 1000
+cfl=php:internal
+cfn=php::session_regenerate_id
+calls=1 0 0
+16 0
+cfl=php:internal
+cfn=php::session_id
+calls=1 0 0
+17 0
+cfl=php:internal
+cfn=php::md5
+calls=1 0 0
+18 0
+

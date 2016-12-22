@@ -1,0 +1,95 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\bin\upload_drag_drop\upload_drag_drop.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::date_default_timezone_set
+2 0
+
+fl=php:internal
+fn=php::explode
+102 0
+
+fl=php:internal
+fn=php::is_dir
+107 0
+
+fl=php:internal
+fn=php::is_dir
+107 0
+
+fl=php:internal
+fn=php::is_dir
+107 0
+
+fl=php:internal
+fn=php::is_dir
+107 0
+
+fl=php:internal
+fn=php::is_dir
+107 0
+
+fl=php:internal
+fn=php::is_dir
+107 0
+
+fl=php:internal
+fn=php::is_dir
+107 0
+
+fl=php:internal
+fn=php::scandir
+113 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\bin\upload_drag_drop\upload_drag_drop.php
+fn={main}
+
+summary: 3000
+
+1 3000
+cfl=php:internal
+cfn=php::date_default_timezone_set
+calls=1 0 0
+2 0
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+102 0
+cfl=php:internal
+cfn=php::is_dir
+calls=1 0 0
+107 0
+cfl=php:internal
+cfn=php::is_dir
+calls=1 0 0
+107 0
+cfl=php:internal
+cfn=php::is_dir
+calls=1 0 0
+107 0
+cfl=php:internal
+cfn=php::is_dir
+calls=1 0 0
+107 0
+cfl=php:internal
+cfn=php::is_dir
+calls=1 0 0
+107 0
+cfl=php:internal
+cfn=php::is_dir
+calls=1 0 0
+107 0
+cfl=php:internal
+cfn=php::is_dir
+calls=1 0 0
+107 0
+cfl=php:internal
+cfn=php::scandir
+calls=1 0 0
+113 0
+

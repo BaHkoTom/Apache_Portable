@@ -1,0 +1,72 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: C:\Users\BaHko\HTTP\scanit\administration\index.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::date_default_timezone_set
+2 0
+
+fl=php:internal
+fn=php::define
+4 0
+
+fl=php:internal
+fn=php::define
+5 0
+
+fl=php:internal
+fn=php::microtime
+8 0
+
+fl=C:\Users\BaHko\HTTP\scanit\administration\session\bin\inc\__autoload.php
+fn=require_once::C:\Users\BaHko\HTTP\scanit\administration\session\bin\inc\__autoload.php
+1 0
+
+fl=php:internal
+fn=php::file_exists
+11 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+
+fl=C:\Users\BaHko\HTTP\scanit\administration\session\bin\inc\class.locate.inc.php
+fn=include_once::C:\Users\BaHko\HTTP\scanit\administration\session\bin\inc\class.locate.inc.php
+1 0
+cfl=php:internal
+cfn=php::date_default_timezone_set
+calls=1 0 0
+3 0
+
+fl=C:\Users\BaHko\HTTP\scanit\administration\session\bin\inc\__autoload.php
+fn=__autoload
+3 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+11 0
+cfl=C:\Users\BaHko\HTTP\scanit\administration\session\bin\inc\class.locate.inc.php
+cfn=include_once::C:\Users\BaHko\HTTP\scanit\administration\session\bin\inc\class.locate.inc.php
+calls=1 0 0
+11 0
+
+fl=php:internal
+fn=php::strlen
+12 0
+
+fl=php:internal
+fn=php::substr
+12 0
+
+fl=php:internal
+fn=php::dirname
+12 0
+
+fl=C:\Users\BaHko\HTTP\scanit\administration\session\bin\inc\class.locate.inc.php
+fn=locate->__construct
+10 0
+

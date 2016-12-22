@@ -1,0 +1,255 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: C:\Users\BaHko\HTTP\tFrame1\index.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::realpath
+3 0
+
+fl=php:internal
+fn=php::dirname
+3 0
+
+fl=php:internal
+fn=php::define
+3 999
+
+fl=php:internal
+fn=php::file_exists
+4 0
+
+fl=php:internal
+fn=php::define
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\configs\config.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\configs\config.php
+1 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+1 0
+
+fl=php:internal
+fn=php::file_exists
+6 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+1 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+fn=__autoload
+3 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+calls=1 0 0
+6 0
+
+fl=php:internal
+fn=php::rtrim
+5 0
+
+fl=php:internal
+fn=php::explode
+6 0
+
+fl=php:internal
+fn=php::file_exists
+16 0
+
+fl=php:internal
+fn=php::file_exists
+6 999
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.controller.inc.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.controller.inc.php
+1 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+fn=__autoload
+3 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+6 999
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.controller.inc.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.controller.inc.php
+calls=1 0 0
+6 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\controllers\error.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\controllers\error.php
+1 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+cfn=__autoload
+calls=1 0 0
+3 999
+
+fl=php:internal
+fn=php::file_exists
+6 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.view.inc.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.view.inc.php
+1 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+fn=__autoload
+3 999
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.view.inc.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.view.inc.php
+calls=1 0 0
+6 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.controller.inc.php
+fn=controller->__construct
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+cfn=__autoload
+calls=1 0 0
+7 999
+
+fl=C:\Users\BaHko\HTTP\tFrame1\controllers\error.php
+fn=Error->__construct
+4 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.controller.inc.php
+cfn=controller->__construct
+calls=1 0 0
+5 999
+
+fl=C:\Users\BaHko\HTTP\tFrame1\views\header.php
+fn=require::C:\Users\BaHko\HTTP\tFrame1\views\header.php
+1 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\views\error.php
+fn=require::C:\Users\BaHko\HTTP\tFrame1\views\error.php
+1 0
+
+fl=php:internal
+fn=php::date
+36 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\views\footer.php
+fn=require::C:\Users\BaHko\HTTP\tFrame1\views\footer.php
+1 999
+cfl=php:internal
+cfn=php::date
+calls=1 0 0
+36 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.view.inc.php
+fn=view->render
+4 1000
+cfl=C:\Users\BaHko\HTTP\tFrame1\views\header.php
+cfn=require::C:\Users\BaHko\HTTP\tFrame1\views\header.php
+calls=1 0 0
+5 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\views\error.php
+cfn=require::C:\Users\BaHko\HTTP\tFrame1\views\error.php
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\views\footer.php
+cfn=require::C:\Users\BaHko\HTTP\tFrame1\views\footer.php
+calls=1 0 0
+7 999
+
+fl=C:\Users\BaHko\HTTP\tFrame1\controllers\error.php
+fn=Error->index
+8 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.view.inc.php
+cfn=view->render
+calls=1 0 0
+9 2000
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+fn=init->init_error
+35 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\controllers\error.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\controllers\error.php
+calls=1 0 0
+36 999
+cfl=C:\Users\BaHko\HTTP\tFrame1\controllers\error.php
+cfn=Error->__construct
+calls=1 0 0
+37 999
+cfl=C:\Users\BaHko\HTTP\tFrame1\controllers\error.php
+cfn=Error->index
+calls=1 0 0
+38 2000
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+fn=init->__construct
+3 1000
+cfl=php:internal
+cfn=php::rtrim
+calls=1 0 0
+5 0
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+6 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+16 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+cfn=init->init_error
+calls=1 0 0
+32 3999
+
+fl=C:\Users\BaHko\HTTP\tFrame1\index.php
+fn={main}
+
+summary: 6999
+
+1 999
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+3 0
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+3 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+3 999
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+4 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\configs\config.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\configs\config.php
+calls=1 0 0
+4 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+calls=1 0 0
+7 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+cfn=__autoload
+calls=1 0 0
+9 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+cfn=init->__construct
+calls=1 0 0
+9 5000
+

@@ -1,0 +1,23 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: C:\Users\BaHko\HTTP\test\Test1.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::phpinfo
+3 4999
+
+fl=C:\Users\BaHko\HTTP\test\Test1.php
+fn={main}
+
+summary: 4999
+
+1 0
+cfl=php:internal
+cfn=php::phpinfo
+calls=1 0 0
+3 4999
+

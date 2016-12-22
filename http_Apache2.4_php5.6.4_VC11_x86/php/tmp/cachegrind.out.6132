@@ -1,0 +1,603 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::header
+2 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+
+ernal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::explode
+58 0
+
+fl=php:internal
+fn=php::trim
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::explode
+59 0
+
+fl=php:internal
+fn=php::trim
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::explode
+60 0
+
+fl=php:internal
+fn=php::trim
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::strpos
+57 0
+
+fl=php:internal
+fn=php::explode
+57 0
+
+fl=php:internal
+fn=php::trim
+57 0
+
+fl=php:internal
+fn=php::strpos
+58 0
+
+fl=php:internal
+fn=php::strpos
+59 0
+
+fl=php:internal
+fn=php::strpos
+60 0
+
+fl=php:internal
+fn=php::fgets
+55 0
+
+fl=php:internal
+fn=php::feof
+63 0
+
+fl=php:internal
+fn=php::fclose
+66 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->conf_read
+51 7999
+cfl=php:internal
+cfn=php::fopen
+calls=1 0 0
+52 999
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+59 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+60 0
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+55 0
+cfl=php:internal
+cfn=php::feof
+calls=1 0 0
+63 0
+cfl=php:internal
+cfn=php::fclose
+calls=1 0 0
+66 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->__construct
+21 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+cfn=tCart->conf_read
+calls=1 0 0
+22 8999
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn={main}
+
+summary: 9999
+
+1 1000
+cfl=php:internal
+cfn=php::header
+calls=1 0 0
+2 0
+cfl=php:internal
+cfn=php::date_default_timezone_set
+calls=1 0 0
+3 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+cfn=tCart->__construct
+calls=1 0 0
+496 8999
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.sqlite.php
+fn=tCart->__destruct
+27 0
+

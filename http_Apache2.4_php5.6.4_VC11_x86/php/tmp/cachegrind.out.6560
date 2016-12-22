@@ -1,0 +1,28 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::header
+2 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.session.php
+fn=require_once::C:\Users\BaHko\HTTP\HULK\Ana-boli\tCart\tCart.session.php
+1 0
+cfl=php:internal
+cfn=php::date_default_timezone_set
+calls=1 0 0
+3 0
+

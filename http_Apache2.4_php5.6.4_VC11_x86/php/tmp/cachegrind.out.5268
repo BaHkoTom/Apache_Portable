@@ -1,0 +1,155 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::header
+2 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\__autoload.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\public\tCart\__autoload.php
+1 0
+
+fl=php:internal
+fn=php::file_exists
+6 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.session.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.session.php
+1 0
+cfl=php:internal
+cfn=php::date_default_timezone_set
+calls=1 0 0
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\__autoload.php
+fn=__autoload
+3 999
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.session.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.session.php
+calls=1 0 0
+6 0
+
+fl=php:internal
+fn=php::session_start
+10 1000
+
+fl=php:internal
+fn=php::session_regenerate_id
+11 0
+
+fl=php:internal
+fn=php::session_id
+12 0
+
+fl=php:internal
+fn=php::md5
+13 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.session.php
+fn=Session::start
+7 0
+cfl=php:internal
+cfn=php::session_start
+calls=1 0 0
+10 1000
+cfl=php:internal
+cfn=php::session_regenerate_id
+calls=1 0 0
+11 0
+cfl=php:internal
+cfn=php::session_id
+calls=1 0 0
+12 0
+cfl=php:internal
+cfn=php::md5
+calls=1 0 0
+13 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.php
+fn=tCart::set_db_type
+29 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.php
+fn=tCart->__construct
+9 1999
+cfl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\__autoload.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\public\tCart\__autoload.php
+calls=1 0 0
+10 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\__autoload.php
+cfn=__autoload
+calls=1 0 0
+11 999
+cfl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.session.php
+cfn=Session::start
+calls=1 0 0
+11 1000
+cfl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.php
+cfn=tCart::set_db_type
+calls=1 0 0
+12 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.php
+fn=tCart::getProducts
+37 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.php
+fn={main}
+
+summary: 3999
+
+1 0
+cfl=php:internal
+cfn=php::header
+calls=1 0 0
+2 0
+cfl=php:internal
+cfn=php::date_default_timezone_set
+calls=1 0 0
+3 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.php
+cfn=tCart->__construct
+calls=1 0 0
+44 3999
+cfl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.php
+cfn=tCart::getProducts
+calls=1 0 0
+51 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.session.php
+fn=Session::start
+7 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.session.php
+fn=Session::destroy
+22 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.session.php
+cfn=Session::start
+calls=1 0 0
+23 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.php
+fn=tCart->__destruct
+15 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\public\tCart\tCart.session.php
+cfn=Session::destroy
+calls=1 0 0
+17 0
+

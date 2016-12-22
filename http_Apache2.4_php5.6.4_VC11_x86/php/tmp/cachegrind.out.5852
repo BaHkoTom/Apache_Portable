@@ -1,0 +1,95 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: C:\Users\BaHko\HTTP\tFrame\skins\default\tCart\tCart.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::header
+2 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame\skins\default\tCart\tCart.session.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame\skins\default\tCart\tCart.session.php
+1 0
+cfl=php:internal
+cfn=php::date_default_timezone_set
+calls=1 0 0
+3 0
+
+fl=php:internal
+fn=php::session_start
+10 0
+
+fl=php:internal
+fn=php::session_regenerate_id
+11 0
+
+fl=php:internal
+fn=php::session_id
+12 0
+
+fl=C:\Users\BaHko\HTTP\tFrame\skins\default\tCart\tCart.session.php
+fn=Session->start
+7 999
+cfl=php:internal
+cfn=php::session_start
+calls=1 0 0
+10 0
+cfl=php:internal
+cfn=php::session_regenerate_id
+calls=1 0 0
+11 0
+cfl=php:internal
+cfn=php::session_id
+calls=1 0 0
+12 0
+
+fl=php:internal
+fn=php::is_array
+293 0
+
+fl=php:internal
+fn=php::sizeof
+293 0
+
+fl=C:\Users\BaHko\HTTP\tFrame\skins\default\tCart\tCart.php
+fn={main}
+
+summary: 1999
+
+1 999
+cfl=php:internal
+cfn=php::header
+calls=1 0 0
+2 0
+cfl=php:internal
+cfn=php::date_default_timezone_set
+calls=1 0 0
+3 0
+cfl=C:\Users\BaHko\HTTP\tFrame\skins\default\tCart\tCart.session.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame\skins\default\tCart\tCart.session.php
+calls=1 0 0
+8 0
+cfl=C:\Users\BaHko\HTTP\tFrame\skins\default\tCart\tCart.session.php
+cfn=Session->start
+calls=1 0 0
+10 999
+cfl=php:internal
+cfn=php::is_array
+calls=1 0 0
+293 0
+cfl=php:internal
+cfn=php::sizeof
+calls=1 0 0
+293 0
+

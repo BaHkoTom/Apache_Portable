@@ -1,0 +1,23 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: D:\http_Apache2.4_php5.4.6_VC9_x86\htdocs\php\helloworld.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::date_default_timezone_set
+1 0
+
+fl=D:\http_Apache2.4_php5.4.6_VC9_x86\htdocs\php\helloworld.php
+fn={main}
+
+summary: 0
+
+1 0
+cfl=php:internal
+cfn=php::date_default_timezone_set
+calls=1 0 0
+1 0
+

@@ -1,0 +1,145 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\session\logout.php
+part: 1
+positions: line
+
+events: Time
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\__autoload.php
+fn=require_once::C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\__autoload.php
+1 0
+
+fl=php:internal
+fn=php::file_exists
+11 0
+
+fl=php:internal
+fn=php::file_exists
+12 1000
+
+fl=php:internal
+fn=php::file_exists
+13 0
+
+fl=php:internal
+fn=php::file_exists
+14 0
+
+fl=php:internal
+fn=php::file_exists
+15 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\class.session.inc.php
+fn=include_once::C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\class.session.inc.php
+1 0
+cfl=php:internal
+cfn=php::date_default_timezone_set
+calls=1 0 0
+3 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\__autoload.php
+fn=__autoload
+3 9999
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+11 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+12 1000
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+13 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+14 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+15 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\class.session.inc.php
+cfn=include_once::C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\class.session.inc.php
+calls=1 0 0
+15 0
+
+fl=php:internal
+fn=php::session_start
+10 999
+
+fl=php:internal
+fn=php::session_regenerate_id
+11 1000
+
+fl=php:internal
+fn=php::session_id
+12 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\class.session.inc.php
+fn=Auth_Session->start
+7 999
+cfl=php:internal
+cfn=php::session_start
+calls=1 0 0
+10 999
+cfl=php:internal
+cfn=php::session_regenerate_id
+calls=1 0 0
+11 1000
+cfl=php:internal
+cfn=php::session_id
+calls=1 0 0
+12 0
+
+fl=php:internal
+fn=php::session_unset
+35 0
+
+fl=php:internal
+fn=php::session_destroy
+43 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\class.session.inc.php
+fn=Auth_Session->destroy
+20 1000
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\class.session.inc.php
+cfn=Auth_Session->start
+calls=1 0 0
+21 3000
+cfl=php:internal
+cfn=php::session_unset
+calls=1 0 0
+35 0
+cfl=php:internal
+cfn=php::session_destroy
+calls=1 0 0
+43 0
+
+fl=C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\session\logout.php
+fn={main}
+
+summary: 16000
+
+1 999
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\__autoload.php
+cfn=require_once::C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\__autoload.php
+calls=1 0 0
+2 0
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\__autoload.php
+cfn=__autoload
+calls=1 0 0
+4 10999
+cfl=C:\Users\BaHko\HTTP\HULK\Ana-boli\administration\session\bin\inc\class.session.inc.php
+cfn=Auth_Session->destroy
+calls=1 0 0
+7 4000
+
+00
+

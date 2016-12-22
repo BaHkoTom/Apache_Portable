@@ -1,0 +1,23 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: D:\http_Apache2.2_php5.4.6_VC9_x86\htdocs\php\phpinfo.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::phpinfo
+9 15625
+
+fl=D:\http_Apache2.2_php5.4.6_VC9_x86\htdocs\php\phpinfo.php
+fn={main}
+
+summary: 15625
+
+1 0
+cfl=php:internal
+cfn=php::phpinfo
+calls=1 0 0
+9 15625
+

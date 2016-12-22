@@ -1,0 +1,3191 @@
+version: 1
+creator: xdebug 2.2.6
+cmd: C:\Users\BaHko\HTTP\tFrame1\index.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::realpath
+3 0
+
+fl=php:internal
+fn=php::dirname
+3 0
+
+fl=php:internal
+fn=php::define
+3 0
+
+fl=php:internal
+fn=php::define
+4 0
+
+fl=php:internal
+fn=php::file_exists
+6 0
+
+fl=php:internal
+fn=php::define
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\configs\config.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\configs\config.php
+1 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+1 0
+
+fl=php:internal
+fn=php::file_exists
+6 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+1 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+fn=__autoload
+3 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+calls=1 0 0
+6 0
+
+fl=php:internal
+fn=php::rtrim
+8 0
+
+fl=php:internal
+fn=php::explode
+9 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+fn=route::set
+7 0
+cfl=php:internal
+cfn=php::rtrim
+calls=1 0 0
+8 0
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+9 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+fn=route::get
+16 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+cfn=route::set
+calls=1 0 0
+16 0
+
+fl=php:internal
+fn=php::file_exists
+6 0
+
+fl=php:internal
+fn=php::date_default_timezone_set
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+1 0
+cfl=php:internal
+cfn=php::date_default_timezone_set
+calls=1 0 0
+3 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+fn=__autoload
+3 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+calls=1 0 0
+6 0
+
+fl=php:internal
+fn=php::session_start
+15 0
+
+fl=php:internal
+fn=php::session_regenerate_id
+16 0
+
+fl=php:internal
+fn=php::session_id
+17 0
+
+fl=php:internal
+fn=php::md5
+18 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+fn=session::start
+12 0
+cfl=php:internal
+cfn=php::session_start
+calls=1 0 0
+15 0
+cfl=php:internal
+cfn=php::session_regenerate_id
+calls=1 0 0
+16 0
+cfl=php:internal
+cfn=php::session_id
+calls=1 0 0
+17 0
+cfl=php:internal
+cfn=php::md5
+calls=1 0 0
+18 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+1 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+1 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::substr
+33 0
+
+fl=php:internal
+fn=php::ord
+33 0
+
+fl=php:internal
+fn=php::count
+113 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::keyExpansion
+110 0
+cfl=php:internal
+cfn=php::count
+calls=1 0 0
+113 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+131 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+131 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+131 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+131 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+131 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+131 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+
+fl=php:internal
+fn=php::count
+22 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::cipher
+19 31200
+cfl=php:internal
+cfn=php::count
+calls=1 0 0
+22 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+27 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+36 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+37 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+38 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+
+fl=php:internal
+fn=php::array_slice
+35 0
+
+fl=php:internal
+fn=php::array_merge
+35 0
+
+fl=php:internal
+fn=php::microtime
+40 0
+
+fl=php:internal
+fn=php::floor
+40 0
+
+fl=php:internal
+fn=php::floor
+42 0
+
+fl=php:internal
+fn=php::rand
+43 0
+
+fl=php:internal
+fn=php::floor
+43 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=php:internal
+fn=php::chr
+51 0
+
+fl=php:internal
+fn=php::chr
+51 0
+
+fl=php:internal
+fn=php::chr
+51 0
+
+fl=php:internal
+fn=php::chr
+51 0
+
+fl=php:internal
+fn=php::chr
+51 0
+
+fl=php:internal
+fn=php::chr
+51 0
+
+fl=php:internal
+fn=php::chr
+51 0
+
+fl=php:internal
+fn=php::chr
+51 0
+
+fl=php:internal
+fn=php::count
+113 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::rotWord
+150 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subWord
+141 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::keyExpansion
+110 15599
+cfl=php:internal
+cfn=php::count
+calls=1 0 0
+113 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+131 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+131 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+131 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+131 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+131 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+131 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::rotWord
+calls=1 0 0
+128 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subWord
+calls=1 0 0
+128 0
+
+fl=php:internal
+fn=php::strlen
+57 0
+
+fl=php:internal
+fn=php::ceil
+57 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::urs
+155 0
+
+fl=php:internal
+fn=php::count
+22 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=php:internal
+fn=php::floor
+25 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 15599
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::mixColumns
+84 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::subBytes
+60 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::shiftRows
+71 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::addRoundKey
+49 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=php:internal
+fn=php::floor
+41 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+fn=Aes::cipher
+19 0
+cfl=php:internal
+cfn=php::count
+calls=1 0 0
+22 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+25 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+27 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 15599
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+30 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::mixColumns
+calls=1 0 0
+32 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::subBytes
+calls=1 0 0
+36 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::shiftRows
+calls=1 0 0
+37 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::addRoundKey
+calls=1 0 0
+38 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+41 0
+
+fl=php:internal
+fn=php::strlen
+69 0
+
+fl=php:internal
+fn=php::substr
+73 0
+
+fl=php:internal
+fn=php::ord
+73 0
+
+fl=php:internal
+fn=php::chr
+74 0
+
+fl=php:internal
+fn=php::substr
+73 0
+
+fl=php:internal
+fn=php::ord
+73 0
+
+fl=php:internal
+fn=php::chr
+74 0
+
+fl=php:internal
+fn=php::substr
+73 0
+
+fl=php:internal
+fn=php::ord
+73 0
+
+fl=php:internal
+fn=php::chr
+74 0
+
+fl=php:internal
+fn=php::substr
+73 0
+
+fl=php:internal
+fn=php::ord
+73 0
+
+fl=php:internal
+fn=php::chr
+74 0
+
+fl=php:internal
+fn=php::implode
+76 0
+
+fl=php:internal
+fn=php::implode
+80 0
+
+fl=php:internal
+fn=php::base64_encode
+81 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+fn=AesCtr::encrypt
+23 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+33 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+33 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::keyExpansion
+calls=1 0 0
+34 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::cipher
+calls=1 0 0
+34 31200
+cfl=php:internal
+cfn=php::array_slice
+calls=1 0 0
+35 0
+cfl=php:internal
+cfn=php::array_merge
+calls=1 0 0
+35 0
+cfl=php:internal
+cfn=php::microtime
+calls=1 0 0
+40 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+40 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+42 0
+cfl=php:internal
+cfn=php::rand
+calls=1 0 0
+43 0
+cfl=php:internal
+cfn=php::floor
+calls=1 0 0
+43 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+45 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+45 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+46 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+46 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+47 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+47 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+47 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+47 0
+cfl=php:internal
+cfn=php::chr
+calls=1 0 0
+51 0
+cfl=php:internal
+cfn=php::chr
+calls=1 0 0
+51 0
+cfl=php:internal
+cfn=php::chr
+calls=1 0 0
+51 0
+cfl=php:internal
+cfn=php::chr
+calls=1 0 0
+51 0
+cfl=php:internal
+cfn=php::chr
+calls=1 0 0
+51 0
+cfl=php:internal
+cfn=php::chr
+calls=1 0 0
+51 0
+cfl=php:internal
+cfn=php::chr
+calls=1 0 0
+51 0
+cfl=php:internal
+cfn=php::chr
+calls=1 0 0
+51 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::keyExpansion
+calls=1 0 0
+54 15599
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+57 0
+cfl=php:internal
+cfn=php::ceil
+calls=1 0 0
+57 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+63 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+63 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+63 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+63 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+64 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+64 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+64 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::urs
+calls=1 0 0
+64 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=Aes::cipher
+calls=1 0 0
+66 15599
+cfl=php:internal
+cfn=php::strlen
+calls=1 0 0
+69 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+73 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+73 0
+cfl=php:internal
+cfn=php::chr
+calls=1 0 0
+74 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+73 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+73 0
+cfl=php:internal
+cfn=php::chr
+calls=1 0 0
+74 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+73 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+73 0
+cfl=php:internal
+cfn=php::chr
+calls=1 0 0
+74 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+73 0
+cfl=php:internal
+cfn=php::ord
+calls=1 0 0
+73 0
+cfl=php:internal
+cfn=php::chr
+calls=1 0 0
+74 0
+cfl=php:internal
+cfn=php::implode
+calls=1 0 0
+76 0
+cfl=php:internal
+cfn=php::implode
+calls=1 0 0
+80 0
+cfl=php:internal
+cfn=php::base64_encode
+calls=1 0 0
+81 0
+
+fl=php:internal
+fn=php::base64_encode
+52 0
+
+fl=php:internal
+fn=php::utf8_encode
+52 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+fn=session::encryptCookies
+49 15599
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.aes.inc.php
+calls=1 0 0
+50 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+calls=1 0 0
+51 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.aes-ctr.inc.php
+cfn=AesCtr::encrypt
+calls=1 0 0
+52 62400
+cfl=php:internal
+cfn=php::base64_encode
+calls=1 0 0
+52 0
+cfl=php:internal
+cfn=php::utf8_encode
+calls=1 0 0
+52 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+fn=session::check_session
+38 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+cfn=session::start
+calls=1 0 0
+39 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+cfn=session::encryptCookies
+calls=1 0 0
+41 78000
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+fn=session->__construct
+7 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+cfn=session::check_session
+calls=1 0 0
+8 78000
+
+fl=php:internal
+fn=php::file_exists
+6 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+1 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+fn=__autoload
+3 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+calls=1 0 0
+6 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+fn=init->ctrl
+40 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+fn=init->ctrl
+40 0
+
+fl=php:internal
+fn=php::file_exists
+26 0
+
+fl=php:internal
+fn=php::file_exists
+6 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.controller.inc.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.controller.inc.php
+1 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+fn=__autoload
+3 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.controller.inc.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.controller.inc.php
+calls=1 0 0
+6 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\controllers\shirts.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\controllers\shirts.php
+1 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+cfn=__autoload
+calls=1 0 0
+3 0
+
+fl=php:internal
+fn=php::file_exists
+6 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.view.inc.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.view.inc.php
+1 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+fn=__autoload
+3 15599
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.view.inc.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\class.view.inc.php
+calls=1 0 0
+6 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.controller.inc.php
+fn=controller->__construct
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+cfn=__autoload
+calls=1 0 0
+7 15599
+
+fl=C:\Users\BaHko\HTTP\tFrame1\controllers\shirts.php
+fn=shirts->__construct
+4 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.controller.inc.php
+cfn=controller->__construct
+calls=1 0 0
+5 15599
+
+fl=php:internal
+fn=php::method_exists
+31 0
+
+fl=php:internal
+fn=php::substr
+11 0
+
+fl=php:internal
+fn=php::str_replace
+11 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\views\header.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\views\header.php
+1 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+11 0
+cfl=php:internal
+cfn=php::str_replace
+calls=1 0 0
+11 0
+
+fl=php:internal
+fn=php::microtime
+9 0
+
+fl=php:internal
+fn=php::round
+9 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\views\shirts\product.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\views\shirts\product.php
+1 0
+cfl=php:internal
+cfn=php::microtime
+calls=1 0 0
+9 0
+cfl=php:internal
+cfn=php::round
+calls=1 0 0
+9 0
+
+fl=php:internal
+fn=php::date
+40 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\views\footer.php
+fn=require_once::C:\Users\BaHko\HTTP\tFrame1\views\footer.php
+1 0
+cfl=php:internal
+cfn=php::date
+calls=1 0 0
+40 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.view.inc.php
+fn=view->render
+4 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\views\header.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\views\header.php
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\views\shirts\product.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\views\shirts\product.php
+calls=1 0 0
+7 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\views\footer.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\views\footer.php
+calls=1 0 0
+8 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\controllers\shirts.php
+fn=shirts->shirts
+12 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.view.inc.php
+cfn=view->render
+calls=1 0 0
+13 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+fn=route::logic
+23 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+26 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\controllers\shirts.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\controllers\shirts.php
+calls=1 0 0
+27 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\controllers\shirts.php
+cfn=shirts->__construct
+calls=1 0 0
+28 15599
+cfl=php:internal
+cfn=php::method_exists
+calls=1 0 0
+31 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\controllers\shirts.php
+cfn=shirts->shirts
+calls=1 0 0
+33 0
+
+fl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+fn=init->__construct
+4 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+cfn=init->ctrl
+calls=1 0 0
+8 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+cfn=init->ctrl
+calls=1 0 0
+19 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+cfn=route::logic
+calls=1 0 0
+21 15599
+
+fl=C:\Users\BaHko\HTTP\tFrame1\index.php
+fn={main}
+
+summary: 93600
+
+1 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+3 0
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+3 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+3 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+4 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\configs\config.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\configs\config.php
+calls=1 0 0
+6 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+cfn=require_once::C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+calls=1 0 0
+9 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+cfn=__autoload
+calls=1 0 0
+13 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.route.inc.php
+cfn=route::get
+calls=1 0 0
+13 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+cfn=__autoload
+calls=1 0 0
+15 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.session.inc.php
+cfn=session->__construct
+calls=1 0 0
+15 78000
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\__autoload.php
+cfn=__autoload
+calls=1 0 0
+17 0
+cfl=C:\Users\BaHko\HTTP\tFrame1\libs\class.init.inc.php
+cfn=init->__construct
+calls=1 0 0
+17 15599
+

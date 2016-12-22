@@ -1,0 +1,76 @@
+[Mon Jan 12 13:03:45.562500 2015] [mpm_winnt:notice] [pid 61368:tid 1724] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1j PHP/5.4.36 configured -- resuming normal operations
+[Mon Jan 12 13:03:45.562500 2015] [mpm_winnt:notice] [pid 61368:tid 1724] AH00456: Server built: Oct 18 2014 13:08:21
+[Mon Jan 12 13:03:45.562500 2015] [mpm_winnt:notice] [pid 61368:tid 1724] AH80000: Distributed by: The Apache Haus
+[Mon Jan 12 13:03:45.562500 2015] [mpm_winnt:notice] [pid 61368:tid 1724] AH80001: Compiled with: Visual Studio 2008
+[Mon Jan 12 13:03:45.562500 2015] [core:notice] [pid 61368:tid 1724] AH00094: Command line: 'D:\\http_Apache2.4_php5.4.6_VC9_x86\\bin\\httpd.exe -d D:/http_Apache2.4_php5.4.6_VC9_x86'
+[Mon Jan 12 13:03:45.578125 2015] [mpm_winnt:notice] [pid 61368:tid 1724] AH00418: Parent: Created child process 61008
+[Mon Jan 12 13:03:47.718750 2015] [mpm_winnt:notice] [pid 61008:tid 1732] AH00354: Child: Starting 64 worker threads.
+[Mon Jan 12 13:04:32.921875 2015] [mpm_winnt:crit] [pid 61008:tid 1732] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 12 13:04:34.937500 2015] [mpm_winnt:notice] [pid 61008:tid 1732] AH00364: Child: All worker threads have exited.
+[Mon Jan 12 13:04:47.859375 2015] [mpm_winnt:notice] [pid 60100:tid 1724] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1j PHP/5.4.36 configured -- resuming normal operations
+[Mon Jan 12 13:04:47.859375 2015] [mpm_winnt:notice] [pid 60100:tid 1724] AH00456: Server built: Oct 18 2014 13:08:21
+[Mon Jan 12 13:04:47.859375 2015] [mpm_winnt:notice] [pid 60100:tid 1724] AH80000: Distributed by: The Apache Haus
+[Mon Jan 12 13:04:47.859375 2015] [mpm_winnt:notice] [pid 60100:tid 1724] AH80001: Compiled with: Visual Studio 2008
+[Mon Jan 12 13:04:47.859375 2015] [core:notice] [pid 60100:tid 1724] AH00094: Command line: 'D:\\http_Apache2.4_php5.4.6_VC9_x86\\bin\\httpd.exe -d D:/http_Apache2.4_php5.4.6_VC9_x86'
+[Mon Jan 12 13:04:47.875000 2015] [mpm_winnt:notice] [pid 60100:tid 1724] AH00418: Parent: Created child process 60028
+[Mon Jan 12 13:04:49.562500 2015] [mpm_winnt:notice] [pid 60028:tid 1732] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 12 13:07:25.359375 2015] [mpm_winnt:crit] [pid 60028:tid 1732] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 12 13:07:27.375000 2015] [mpm_winnt:notice] [pid 60028:tid 1732] AH00364: Child: All worker threads have exited.
+Failed loading .\ext\php_xdebug.dll
+[Mon Jan 12 13:07:33.125000 2015] [mpm_winnt:notice] [pid 57388:tid 1724] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1j PHP/5.4.36 configured -- resuming normal operations
+[Mon Jan 12 13:07:33.125000 2015] [mpm_winnt:notice] [pid 57388:tid 1724] AH00456: Server built: Oct 18 2014 13:08:21
+[Mon Jan 12 13:07:33.125000 2015] [mpm_winnt:notice] [pid 57388:tid 1724] AH80000: Distributed by: The Apache Haus
+[Mon Jan 12 13:07:33.125000 2015] [mpm_winnt:notice] [pid 57388:tid 1724] AH80001: Compiled with: Visual Studio 2008
+[Mon Jan 12 13:07:33.125000 2015] [core:notice] [pid 57388:tid 1724] AH00094: Command line: 'D:\\http_Apache2.4_php5.4.6_VC9_x86\\bin\\httpd.exe -d D:/http_Apache2.4_php5.4.6_VC9_x86'
+[Mon Jan 12 13:07:33.156250 2015] [mpm_winnt:notice] [pid 57388:tid 1724] AH00418: Parent: Created child process 60316
+Failed loading .\ext\php_xdebug.dll
+[Mon Jan 12 13:07:34.984375 2015] [mpm_winnt:notice] [pid 60316:tid 1732] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 12 13:07:56.546875 2015] [mpm_winnt:crit] [pid 60316:tid 1732] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 12 13:07:58.562500 2015] [mpm_winnt:notice] [pid 60316:tid 1732] AH00364: Child: All worker threads have exited.
+Failed loading ext\php_xdebug.dll
+[Mon Jan 12 13:08:01.687500 2015] [mpm_winnt:notice] [pid 58144:tid 1724] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1j PHP/5.4.36 configured -- resuming normal operations
+[Mon Jan 12 13:08:01.687500 2015] [mpm_winnt:notice] [pid 58144:tid 1724] AH00456: Server built: Oct 18 2014 13:08:21
+[Mon Jan 12 13:08:01.687500 2015] [mpm_winnt:notice] [pid 58144:tid 1724] AH80000: Distributed by: The Apache Haus
+[Mon Jan 12 13:08:01.687500 2015] [mpm_winnt:notice] [pid 58144:tid 1724] AH80001: Compiled with: Visual Studio 2008
+[Mon Jan 12 13:08:01.687500 2015] [core:notice] [pid 58144:tid 1724] AH00094: Command line: 'D:\\http_Apache2.4_php5.4.6_VC9_x86\\bin\\httpd.exe -d D:/http_Apache2.4_php5.4.6_VC9_x86'
+[Mon Jan 12 13:08:01.703125 2015] [mpm_winnt:notice] [pid 58144:tid 1724] AH00418: Parent: Created child process 58392
+Failed loading ext\php_xdebug.dll
+[Mon Jan 12 13:08:03.437500 2015] [mpm_winnt:notice] [pid 58392:tid 1732] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 12 13:10:10.765625 2015] [mpm_winnt:crit] [pid 58392:tid 1732] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 12 13:10:12.781250 2015] [mpm_winnt:notice] [pid 58392:tid 1732] AH00364: Child: All worker threads have exited.
+[Mon Jan 12 13:18:45.843750 2015] [mpm_winnt:notice] [pid 60040:tid 1724] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1j PHP/5.4.36 configured -- resuming normal operations
+[Mon Jan 12 13:18:45.843750 2015] [mpm_winnt:notice] [pid 60040:tid 1724] AH00456: Server built: Oct 18 2014 13:08:21
+[Mon Jan 12 13:18:45.843750 2015] [mpm_winnt:notice] [pid 60040:tid 1724] AH80000: Distributed by: The Apache Haus
+[Mon Jan 12 13:18:45.843750 2015] [mpm_winnt:notice] [pid 60040:tid 1724] AH80001: Compiled with: Visual Studio 2008
+[Mon Jan 12 13:18:45.843750 2015] [core:notice] [pid 60040:tid 1724] AH00094: Command line: 'D:\\http_Apache2.4_php5.4.6_VC9_x86\\bin\\httpd.exe -d D:/http_Apache2.4_php5.4.6_VC9_x86'
+[Mon Jan 12 13:18:45.859375 2015] [mpm_winnt:notice] [pid 60040:tid 1724] AH00418: Parent: Created child process 60744
+[Mon Jan 12 13:18:47.781250 2015] [mpm_winnt:notice] [pid 60744:tid 1732] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 12 13:20:00.875000 2015] [mpm_winnt:crit] [pid 60744:tid 1732] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 12 13:20:02.890625 2015] [mpm_winnt:notice] [pid 60744:tid 1732] AH00364: Child: All worker threads have exited.
+[Mon Jan 12 13:20:38.140625 2015] [mpm_winnt:notice] [pid 60408:tid 1724] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1j PHP/5.4.36 configured -- resuming normal operations
+[Mon Jan 12 13:20:38.140625 2015] [mpm_winnt:notice] [pid 60408:tid 1724] AH00456: Server built: Oct 18 2014 13:08:21
+[Mon Jan 12 13:20:38.140625 2015] [mpm_winnt:notice] [pid 60408:tid 1724] AH80000: Distributed by: The Apache Haus
+[Mon Jan 12 13:20:38.140625 2015] [mpm_winnt:notice] [pid 60408:tid 1724] AH80001: Compiled with: Visual Studio 2008
+[Mon Jan 12 13:20:38.140625 2015] [core:notice] [pid 60408:tid 1724] AH00094: Command line: 'D:\\http_Apache2.4_php5.4.6_VC9_x86\\bin\\httpd.exe -d D:/http_Apache2.4_php5.4.6_VC9_x86'
+[Mon Jan 12 13:20:38.156250 2015] [mpm_winnt:notice] [pid 60408:tid 1724] AH00418: Parent: Created child process 61016
+[Mon Jan 12 13:20:40.484375 2015] [mpm_winnt:notice] [pid 61016:tid 1732] AH00354: Child: Starting 150 worker threads.
+[Mon Jan 12 13:21:31.046875 2015] [mpm_winnt:crit] [pid 61016:tid 1732] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Jan 12 13:21:33.062500 2015] [mpm_winnt:notice] [pid 61016:tid 1732] AH00364: Child: All worker threads have exited.
+[Thu Jun 11 19:10:27.745600 2015] [mpm_winnt:notice] [pid 7840:tid 388] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1j PHP/5.4.36 configured -- resuming normal operations
+[Thu Jun 11 19:10:27.828600 2015] [mpm_winnt:notice] [pid 7840:tid 388] AH00456: Server built: Oct 18 2014 13:08:21
+[Thu Jun 11 19:10:27.828600 2015] [mpm_winnt:notice] [pid 7840:tid 388] AH80000: Distributed by: The Apache Haus
+[Thu Jun 11 19:10:27.828600 2015] [mpm_winnt:notice] [pid 7840:tid 388] AH80001: Compiled with: Visual Studio 2008
+[Thu Jun 11 19:10:27.828600 2015] [core:notice] [pid 7840:tid 388] AH00094: Command line: 'D:\\http_Apache2.4_php5.4.6_VC9_x86\\bin\\httpd.exe -d D:/http_Apache2.4_php5.4.6_VC9_x86'
+[Thu Jun 11 19:10:27.850600 2015] [mpm_winnt:notice] [pid 7840:tid 388] AH00418: Parent: Created child process 4548
+[Thu Jun 11 19:10:29.838600 2015] [mpm_winnt:notice] [pid 4548:tid 408] AH00354: Child: Starting 150 worker threads.
+[Thu Jun 11 19:16:03.274600 2015] [mpm_winnt:crit] [pid 4548:tid 408] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Jun 11 19:16:05.275600 2015] [mpm_winnt:notice] [pid 4548:tid 408] AH00364: Child: All worker threads have exited.
+[Thu Jun 11 19:16:15.239600 2015] [mpm_winnt:notice] [pid 7244:tid 400] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1j PHP/5.4.36 configured -- resuming normal operations
+[Thu Jun 11 19:16:15.239600 2015] [mpm_winnt:notice] [pid 7244:tid 400] AH00456: Server built: Oct 18 2014 13:08:21
+[Thu Jun 11 19:16:15.239600 2015] [mpm_winnt:notice] [pid 7244:tid 400] AH80000: Distributed by: The Apache Haus
+[Thu Jun 11 19:16:15.239600 2015] [mpm_winnt:notice] [pid 7244:tid 400] AH80001: Compiled with: Visual Studio 2008
+[Thu Jun 11 19:16:15.239600 2015] [core:notice] [pid 7244:tid 400] AH00094: Command line: 'D:\\http_Apache2.4_php5.4.6_VC9_x86\\bin\\httpd.exe -d D:/http_Apache2.4_php5.4.6_VC9_x86'
+[Thu Jun 11 19:16:15.259600 2015] [mpm_winnt:notice] [pid 7244:tid 400] AH00418: Parent: Created child process 7308
+[Thu Jun 11 19:16:17.187600 2015] [mpm_winnt:notice] [pid 7308:tid 416] AH00354: Child: Starting 150 worker threads.
+[Thu Jun 11 19:17:29.045600 2015] [mpm_winnt:crit] [pid 7308:tid 416] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Jun 11 19:17:31.047600 2015] [mpm_winnt:notice] [pid 7308:tid 416] AH00364: Child: All worker threads have exited.
